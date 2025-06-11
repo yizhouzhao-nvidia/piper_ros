@@ -13,3 +13,4 @@ docker run -it --rm \
     --cap-add=SYS_RAWIO \
     ros_piper/local:latest \
     bash -c "chmod +x $DIR/can_activate.sh && cd $DIR && bash"
+    # bash -c "source /opt/ros/humble/setup.bash && source $DIR/install/setup.bash && chmod +x $DIR/can_activate.sh && cd $DIR && bash"
